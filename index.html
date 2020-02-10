@@ -133,6 +133,56 @@
 	      <li><a href="#d11">Optic Nerve Disease</a></li>
             </ul>
           </li>
+          <li><input type="text" id="myInput" onkeyup="myFunction()" placeholder="    Search for diseases...">
+
+		<ul id="myUL">
+ 	 	<li><a href="#d1">Corona Virus</a></li>
+                <li><a href="#d2">Diabetes</a></li>
+                <li><a href="#d3">Liver Disease</a></li>
+               	<li><a href="#d4">Chronic Kidney Disease</a></li>
+              	<li><a href="#d5">Pneumonia</a></li>
+	      	<li><a href="#d6">Skin Lesions</a></li>
+	      	<li><a href="#d7">Heart Disease</a></li>
+	      	<li><a href="#d8">Breast Cancer</a></li>
+	     	<li><a href="#d9">Skin Cancer</a></li>
+	     	<li><a href="#d10">Sepsis</a></li>
+	      	<li><a href="#d11">Optic Nerve Disease</a></li>
+		</ul>
+
+
+
+
+              
+                 
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>    
+
+
+
+
+
+
+ 
+	  </li>
           
         </ul>
       </nav>
@@ -140,6 +190,9 @@
     </div>
   </header>
   <!-- #header -->
+
+
+
 
 
 

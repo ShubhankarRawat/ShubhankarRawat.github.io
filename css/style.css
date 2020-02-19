@@ -661,6 +661,56 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #03C4EB;
 }
 
+
+/* Subscribe1 Section
+--------------------------------*/
+#subscribe1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+#subscribe1 .subscribe-title {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#subscribe1 .subscribe-text {
+text-align: center;  
+color: #fff;
+}
+
+#subscribe1 .subscribe-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subscribe1 .subscribe-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#subscribe1 .subscribe-btn:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+
+
+
+
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
